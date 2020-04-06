@@ -43,7 +43,7 @@ class Game extends Component {
     this.setState({ room });
 
     this.socket.emit("join", { name, room }, (err) => {
-      if (err) 
+      if (err) console.log("err")
     });
 
     this.socket.on("message", (message) => {
