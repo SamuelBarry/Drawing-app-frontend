@@ -1,0 +1,140 @@
+/* Fixed parameters */
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Comic Neue", cursive;
+  background-image: url("../../icons_img/geometry2.png");
+  background-size: auto;
+}
+#root {
+  height: 100%;
+}
+/* CSS of the Gaming page  */
+.gameoutercontainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameinnercontainer {
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 92%;
+  height: 95%;
+  padding: 5px;
+  border-radius: 5px;
+}
+.chat {
+  flex: 0 1 30%;
+  height: 80%;
+}
+.gameplatecontainer {
+  border: 0.8px solid black;
+  box-shadow: 5px 5px 10px #555;
+  height: 95%;
+  flex: 1 1 70%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  margin: 30px 30px 0 0;
+}
+.gameplateheader {
+  border-bottom: 0.8px solid black;
+  background-image: linear-gradient(120deg, #ebedee 0%, #fdfbfb 100%);
+  flex: 1 1 15%;
+}
+.gameplatebody {
+  background-color: white;
+  flex: 1 0 85%;
+}
+canvas {
+  height: 100%;
+  width: 100%;
+}
+.gameplateheader h4 {
+  margin-left: 10px;
+}
+.colorpicked {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+  padding-bottom: 5px;
+}
+.coloritem {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  margin: 2px 7px;
+  cursor: pointer;
+}
+.choosed {
+  opacity: 0.5;
+}
+.black {
+  background-color: black;
+}
+.white {
+  background-color: white;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.violet {
+  background-color: blueviolet;
+}
+.orange {
+  background-color: orange;
+}
+.erase {
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+  justify-self: center;
+  border: 1.5px solid black;
+  width: 65px;
+  text-align: center;
+  font-size: 17px;
+  margin-left: 20px;
+  /* background-color: black;
+  color: white; */
+  border-radius: 10px;
+}
+.newgame {
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+  justify-self: center;
+  border: 1.5px solid black;
+  width: 200px;
+  text-align: center;
+  font-size: 17px;
+  margin-left: 20px;
+  /* background-color: black;
+  color: white; */
+  border-radius: 10px;
+}

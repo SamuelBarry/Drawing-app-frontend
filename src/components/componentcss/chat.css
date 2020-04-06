@@ -1,0 +1,114 @@
+.chatoutercontainer {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px #555;
+  overflow: hidden;
+  height: 100%;
+  scroll-behavior: auto;
+}
+.chatinnercontainer {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 10px;
+  padding: 5px;
+}
+.chattitle {
+  flex: 1 1 10%;
+  text-align: center;
+  margin-top: -3px;
+  border-bottom: 0.5px solid black;
+}
+.chatform {
+  width: 100%;
+  flex: 0 0 7%;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 5px 10px 10px;
+  justify-content: space-around;
+  margin-top: auto;
+  align-self: flex-start;
+  max-height: 30px;
+}
+.chatinput {
+  flex: 1 1 90%;
+  border: none;
+  border-radius: 20px;
+  max-width: 600px;
+  background-color: #e3e5e5;
+  padding-left: 7px;
+}
+.chatinput:focus {
+  outline: none;
+}
+.sendmessage {
+  margin: -3px 5px 0 2px;
+  flex: 1 0 10%;
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+}
+.messages {
+  flex: 1 1 80%;
+  overflow-y: scroll;
+  justify-self: stretch;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+/*Messages CSS */
+
+.messageContainer {
+  flex-shrink: 1;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 5px;
+  margin: 5px 0;
+}
+.sendingUser {
+  display: inline-block;
+  margin-top: 2px;
+  margin-bottom: -1px;
+}
+.messageBox {
+  background: #f3f3f3;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 15px;
+  word-wrap: break-word;
+  margin: 0 auto;
+}
+.justifyEnd {
+  justify-content: end;
+}
+.justifyStart {
+  justify-content: start;
+}
+.pright-10 {
+  padding-right: 5px;
+}
+.pleft-10 {
+  padding-left: 5px;
+}
+.backGroundRed {
+  background: #ed5858;
+  opacity: 0.8;
+}
+.backGroundBlue {
+  background: #6ab6fc;
+  opacity: 0.8;
+}
